@@ -1,11 +1,11 @@
-# revision 28067
+# revision 31218
 # category Package
 # catalog-ctan /macros/latex/contrib/exsheets
-# catalog-date 2012-10-24 11:56:58 +0200
+# catalog-date 2013-07-17 14:16:32 +0200
 # catalog-license lppl1.3
-# catalog-version 0.3
+# catalog-version 0.9i
 Name:		texlive-exsheets
-Version:	0.3
+Version:	0.9i
 Release:	1
 Summary:	Create exercise sheets and exams
 Group:		Publishing
@@ -44,14 +44,17 @@ control the style of headings of both questions and solutions.
 %{_texmfdistdir}/tex/latex/exsheets/exsheets_configurations.cfg
 %{_texmfdistdir}/tex/latex/exsheets/exsheets_headings.cfg
 %{_texmfdistdir}/tex/latex/exsheets/exsheets_headings.def
-%{_texmfdistdir}/tex/latex/exsheets/exsheets_tasks.cfg
-%{_texmfdistdir}/tex/latex/exsheets/exsheets_tasks.def
-%{_texmfdistdir}/tex/latex/exsheets/translations.sty
+%{_texmfdistdir}/tex/latex/exsheets/tasks.cfg
+%{_texmfdistdir}/tex/latex/exsheets/tasks.sty
 %doc %{_texmfdistdir}/doc/latex/exsheets/README
+%doc %{_texmfdistdir}/doc/latex/exsheets/cntformats_en.pdf
+%doc %{_texmfdistdir}/doc/latex/exsheets/cntformats_en.tex
 %doc %{_texmfdistdir}/doc/latex/exsheets/exsheets_en.pdf
 %doc %{_texmfdistdir}/doc/latex/exsheets/exsheets_en.tex
 %doc %{_texmfdistdir}/doc/latex/exsheets/grading-table.pdf
 %doc %{_texmfdistdir}/doc/latex/exsheets/grading-table.tex
+%doc %{_texmfdistdir}/doc/latex/exsheets/tasks_en.pdf
+%doc %{_texmfdistdir}/doc/latex/exsheets/tasks_en.tex
 
 #-----------------------------------------------------------------------
 %prep
