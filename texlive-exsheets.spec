@@ -1,12 +1,12 @@
-# revision 31218
+# revision 32203
 # category Package
 # catalog-ctan /macros/latex/contrib/exsheets
-# catalog-date 2013-07-17 14:16:32 +0200
+# catalog-date 2013-11-20 11:44:02 +0100
 # catalog-license lppl1.3
-# catalog-version 0.9i
+# catalog-version 0.11
 Name:		texlive-exsheets
-Version:	0.9i
-Release:	2
+Version:	0.11
+Release:	1
 Summary:	Create exercise sheets and exams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/exsheets
@@ -40,6 +40,7 @@ control the style of headings of both questions and solutions.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/exsheets/cntformats.sty
+%{_texmfdistdir}/tex/latex/exsheets/exsheets-listings.sty
 %{_texmfdistdir}/tex/latex/exsheets/exsheets.sty
 %{_texmfdistdir}/tex/latex/exsheets/exsheets_configurations.cfg
 %{_texmfdistdir}/tex/latex/exsheets/exsheets_headings.cfg
