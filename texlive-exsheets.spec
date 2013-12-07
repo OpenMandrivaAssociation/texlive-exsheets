@@ -6,7 +6,7 @@
 # catalog-version 0.11
 Name:		texlive-exsheets
 Version:	0.11
-Release:	3
+Release:	4
 Summary:	Create exercise sheets and exams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/exsheets
