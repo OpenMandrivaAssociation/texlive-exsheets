@@ -1,12 +1,13 @@
-# revision 32517
+# revision 34014
 # category Package
 # catalog-ctan /macros/latex/contrib/exsheets
-# catalog-date 2013-12-27 13:12:36 +0100
+# catalog-date 2014-05-12 01:27:58 +0200
 # catalog-license lppl1.3
-# catalog-version 0.12b
+# catalog-version 0.12
 Name:		texlive-exsheets
-Version:	0.12b
-Release:	2
+Epoch:		1
+Version:	0.12
+Release:	1
 Summary:	Create exercise sheets and exams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/exsheets
