@@ -1,13 +1,7 @@
-# revision 34014
-# category Package
-# catalog-ctan /macros/latex/contrib/exsheets
-# catalog-date 2014-05-12 01:27:58 +0200
-# catalog-license lppl1.3
-# catalog-version 0.12
 Name:		texlive-exsheets
 Epoch:		1
-Version:	0.12
-Release:	4
+Version:	0.21i
+Release:	1
 Summary:	Create exercise sheets and exams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/exsheets
@@ -40,23 +34,8 @@ control the style of headings of both questions and solutions.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/exsheets/cntformats.sty
-%{_texmfdistdir}/tex/latex/exsheets/exsheets-listings.sty
-%{_texmfdistdir}/tex/latex/exsheets/exsheets.sty
-%{_texmfdistdir}/tex/latex/exsheets/exsheets_configurations.cfg
-%{_texmfdistdir}/tex/latex/exsheets/exsheets_headings.cfg
-%{_texmfdistdir}/tex/latex/exsheets/exsheets_headings.def
-%{_texmfdistdir}/tex/latex/exsheets/tasks.cfg
-%{_texmfdistdir}/tex/latex/exsheets/tasks.sty
-%doc %{_texmfdistdir}/doc/latex/exsheets/README
-%doc %{_texmfdistdir}/doc/latex/exsheets/cntformats_en.pdf
-%doc %{_texmfdistdir}/doc/latex/exsheets/cntformats_en.tex
-%doc %{_texmfdistdir}/doc/latex/exsheets/exsheets_en.pdf
-%doc %{_texmfdistdir}/doc/latex/exsheets/exsheets_en.tex
-%doc %{_texmfdistdir}/doc/latex/exsheets/grading-table.pdf
-%doc %{_texmfdistdir}/doc/latex/exsheets/grading-table.tex
-%doc %{_texmfdistdir}/doc/latex/exsheets/tasks_en.pdf
-%doc %{_texmfdistdir}/doc/latex/exsheets/tasks_en.tex
+%{_texmfdistdir}/tex/latex/exsheets
+%doc %{_texmfdistdir}/doc/latex/exsheets
 
 #-----------------------------------------------------------------------
 %prep
