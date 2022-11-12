@@ -1,13 +1,13 @@
 Name:		texlive-exsheets
 Epoch:		1
-Version:	0.21i
-Release:	2
+Version:	52227
+Release:	1
 Summary:	Create exercise sheets and exams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/exsheets
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/exsheets.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/exsheets.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/exsheets.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/exsheets.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,12 +25,12 @@ selectively include questions from an external file, and to
 control the style of headings of both questions and solutions.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -39,7 +39,7 @@ control the style of headings of both questions and solutions.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
