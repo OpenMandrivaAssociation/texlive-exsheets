@@ -1,7 +1,7 @@
 Name:		texlive-exsheets
 Epoch:		1
-Version:	52227
-Release:	2
+Version:	67300
+Release:	1
 Summary:	Create exercise sheets and exams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/exsheets
