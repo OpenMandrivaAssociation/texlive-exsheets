@@ -4,7 +4,7 @@ Version:	67300
 Release:	1
 Summary:	Create exercise sheets and exams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/exsheets
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/exsheets
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/exsheets.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/exsheets.doc.r%{version}.tar.xz
